@@ -4,6 +4,7 @@
  */
 package ua.ks.alexchuprin.jdiskuse;
 
+import java.util.ResourceBundle;
 import ua.ks.alexchuprin.jdiskuse.gui.MainForm;
 
 /**
@@ -18,4 +19,7 @@ public class Jdiskuse {
     public static void main(String[] args) {
         new MainForm();
     }
+
+    public Jdiskuse() {
+    }        
 }
